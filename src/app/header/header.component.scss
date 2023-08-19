@@ -1,0 +1,52 @@
+/* header.component.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid white;
+  background-color: white;
+  color: gray;
+}
+
+
+.right {
+  display: flex;
+  align-items: center;
+
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.button-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.button-text {
+  margin-top: 5px;
+}

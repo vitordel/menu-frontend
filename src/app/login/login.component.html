@@ -1,0 +1,16 @@
+<div class="login-container">
+  <div class="balloon">
+    <p class="balloon-text-left"><span class="number">1</span><br>Novo Pedido</p>
+    <div class="balloon-line"></div>
+    <p class="balloon-text-right">Por favor, faça o login para ver o pedido e ter acesso a receita com o modo de preparo
+    </p>
+  </div>
+  <img class="logo" src="../../assets/logo-coco-bambu.png" alt="Logo" />
+  <div class="login-form">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <input class="input-field" type="text" id="username" formControlName="username">
+      <input class="input-field" type="password" id="password" formControlName="password">
+      <button class="login-button" type="button" (click)="login()">Acessar</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,108 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../../assets/img-bg-login.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.balloon {
+  width: 200px;
+  position: relative;
+  background-color: white;
+  /* Set the background color to white */
+  color: black;
+  /* Set the text color to black */
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* Place items side by side */
+  align-items: center;
+  max-width: 80%;
+  /* Set the maximum width of the balloon */
+  margin-bottom: 20px;
+  /* Add spacing below the balloon */
+}
+
+.balloon::after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: white;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.balloon-line {
+  width: 1px;
+  /* Set the width of the vertical line */
+  height: 100%;
+  /* Set the height of the vertical line */
+  background-color: black;
+  /* Set the color of the vertical line */
+  margin: 0 10px;
+  /* Add spacing around the line */
+}
+
+.balloon-text-left {
+  .number {
+    font-size: 30px; // Adjust the font size as needed
+  }
+
+  text-align: center;
+  // padding: 10px;
+  color: orange;
+  /* Add font properties for the left text */
+  font-family: 'Arial',
+  sans-serif;
+  /* Set the desired font */
+  font-size: 10px;
+  /* Set the desired font size */
+}
+
+.balloon-text-right {
+  /* Add font properties for the right text */
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  /* Set the desired font */
+  font-size: 10px;
+  /* Set the desired font size */
+}
+
+.logo {
+  max-width: 100%;
+  // margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.input-field {
+  width: 200px;
+  height: 20px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+
+.login-button {
+  width: 220px;
+  height: 40px;
+  margin: 10px 0;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: 1px solid orange;
+  cursor: pointer;
+}
