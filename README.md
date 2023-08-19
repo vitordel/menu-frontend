@@ -1,27 +1,21 @@
-# MenuFrontend
+# Projeto Frontend para Tagme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+ A rede de restaurantes Coco Bambu possui um cardápio tão extenso que a equipe de cada unidade não tem conhecimento profundo sobre todos os itens. Assim, a concepção desse projeto foi elaborar um site que seria acessado na cozinha para que as receitas pudessem ser consultadas e atualizadas com facilidade.
 
-## Development server
+ # Login
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ O sistema possui um tela de login (arquivo `0 - Gestão-cozinha.jpg`) que valida se o username e senha estão corretos.
 
-## Code scaffolding
+A validação pode ser feita por um par determinado de username e senha (ex.: user / pass).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ # Top bar
 
-## Build
+Top bar na tela de lista de receitas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Top bar
 
-## Running unit tests
+Tela de lista de receitas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Top bar
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Tela de detalhes da receita
