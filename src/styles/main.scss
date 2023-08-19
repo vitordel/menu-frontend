@@ -1,0 +1,7 @@
+@import 'variables';
+@import 'mixins';
+@import 'responsive';
+
+body {
+  font-family: $body-font-family;
+}
